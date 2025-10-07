@@ -1,2 +1,3 @@
 # Capstone-Project
 Question Answering System
+This project implements a document-based and Stock Based Question-Answering (QA) system that allows users to get data from stock API and ask questions about the content in the document and stocks. The system processes the document, extracts relevant text, and extracting data from API related to that stocks and  enables users to query the information using an AI model. It also stores past queries in an SQLite database for persistent history. The backend uses LangChain for document processing, Rag for Retrieving relavent documents related to question, Hugging Face transformers for embeddings and text generation, FAISS for vector search, and Streamlit for the frontend UI.
